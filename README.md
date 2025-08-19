@@ -1,4 +1,4 @@
-# Insurance claim assiatant (hackrx) – Document-based Question Answering System
+# Insurance claim assistant (hackrx) – Document-based Question Answering System
 
 
 ---
@@ -36,4 +36,5 @@ It leverages **LangChain**, **Together.ai LLM (Mixtral-8x7B)**, **FAISS vector s
 ```bash
 pip install -r requirements.txt
 uvicorn api_server:app --host 0.0.0.0 --port 8000
+
 
